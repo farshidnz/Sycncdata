@@ -1,0 +1,77 @@
+[
+  {
+    "Key": "memoryLimitMiB",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 1024
+      },
+      {
+        "Scope": "prelive|live",
+        "Value": 2048
+      }
+    ]
+  },
+  {
+    "Key": "timeOut",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 30
+      }
+    ]
+  },
+  {
+    "Key": "ConcurrentExecutions",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": "5"
+      },
+      {
+        "Scope": "prelive|live",
+        "Value": "10"
+      }
+    ]
+  },
+  {
+    "Key": "ScalingMinCapacity",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 0
+      }
+    ]
+  },
+  {
+    "Key": "ScalingMaxCapacity",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 10
+      },
+      {
+        "Scope": "live",
+        "Value": 20
+      }
+    ]
+  },
+  {
+    "Key": "ScalingUtilizationTarget",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 0.5
+      }
+    ]
+  },
+  {
+    "Key": "MaximumMessageCount",
+    "Values": [
+      {
+        "Scope": "*",
+        "Value": 100
+      }
+    ]
+  }
+]
